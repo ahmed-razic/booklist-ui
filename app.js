@@ -10,7 +10,6 @@ function UI() {}
 
 UI.prototype.addBookToList = function (book) {
   const list = document.getElementById('book-list');
-
   const row = document.createElement('tr');
   row.innerHTML = `
   <td>${book.title}</td>
