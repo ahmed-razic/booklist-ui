@@ -87,7 +87,6 @@ class Store {
 }
 
 //DOM LOADED EVENT
-
 document.addEventListener('DOMContentLoaded', Store.displayBooks);
 
 //Event listener to add a book
